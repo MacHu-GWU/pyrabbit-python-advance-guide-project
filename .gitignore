@@ -1,5 +1,6 @@
 # User Setting
 *.pyc
+build
 
 # Windows image file caches
 Thumbs.db
