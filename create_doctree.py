@@ -1,12 +1,11 @@
 from __future__ import print_function
 from docfly import Docfly
-import os
-
+import shutil
+ 
 try:
-    os.remove(r"source\pyguide")
+    shutil.rmtree(r"source\pyguide")
 except Exception as e:
     print(e)
-    
-docfly = Docfly("pyguide")
-docfly.dst = r"source"
+     
+docfly = Docfly("pyguide", dst="source")
 docfly.fly()
