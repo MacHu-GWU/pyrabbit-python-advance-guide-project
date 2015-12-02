@@ -3,6 +3,8 @@
 
 """
 本模块是一个用heapq实现priority queue数据结构的例子。
+Ref: https://en.wikipedia.org/wiki/Priority_queue
+
 """
 
 from __future__ import print_function

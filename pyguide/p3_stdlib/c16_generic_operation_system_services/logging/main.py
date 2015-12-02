@@ -31,5 +31,5 @@ def example1():
     func2()
     
 if __name__ == "__main__":
-#     example1()
+    example1()
     pass

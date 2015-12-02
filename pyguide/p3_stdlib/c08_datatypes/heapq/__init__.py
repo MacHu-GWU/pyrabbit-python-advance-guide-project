@@ -49,6 +49,7 @@ def performance_sort():
 
     array = list(range(complexity))
     random.shuffle(array)
+    
     st = time.clock()
     b = list()
     for i in array:
@@ -57,6 +58,7 @@ def performance_sort():
     
     array = list(range(complexity))
     random.shuffle(array)
+    
     st = time.clock()
     array.sort()
     print("list sort takes %.6f sec." % (time.clock() - st,))
@@ -79,6 +81,6 @@ def performance_topK():
     print("sort takes %.6f sec." % (time.clock() - st,))
     
 if __name__ == "__main__":
-    performance_ordered_list()
+#     performance_ordered_list()
     performance_sort()
-    performance_topK()
+#     performance_topK()
